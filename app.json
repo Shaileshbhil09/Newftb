@@ -1,6 +1,6 @@
 {
   "name": "Adarsh-FileStreamBot",
-  "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @adarshgoel",
+  "description": "A Pyrogram Telegram bot to Stream Telegram files to web.",
   "keywords": [
       "telegram",
       "stream",
@@ -13,7 +13,7 @@
       "media",
       "bot"
     ],
-  "repository": "https://github.com/code-x-mania/FileStreamBot-pro/",
+  "repository": "https://github.com/Shaileshbhil09/ftb/",
   "success_url": "/",
   "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
   "website": "http://adarsh.eu.org",
@@ -55,7 +55,7 @@
           
       },
       "OWNER_USERNAME": {
-          "description": "Enter your username without @  example  codexmania."
+          "description": "Enter your username without @  example  movieshelpar."
       },
       "SLEEP_THRESHOLD": {
           "description": "Floodwait Sleep timer. Read the readme for more info about this var",
@@ -94,8 +94,8 @@
           "required": false
       },
       "SESSION_NAME": {
-          "description": " Session Name for Bot [ Add Code-X-Mania]",
-          "value": "Code-X-Mania",
+          "description": " Session Name for Bot [ Add wizan]",
+          "value": "wizan",
           "required": false
       }
   },
