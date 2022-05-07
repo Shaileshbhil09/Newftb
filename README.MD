@@ -59,8 +59,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 💥Removes forwarded tag in channel. <br>
 💥A lot more tired of writing check out by deploying it. 
 </details>
-<detail>
-  
+<detail>  
   <summary><b>Vars and Details :</b></summary>
 
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
