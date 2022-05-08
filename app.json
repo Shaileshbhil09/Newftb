@@ -1,5 +1,5 @@
 {
-  "name": "Adarsh-FileStreamBot",
+  "name": "shailesh-FileStreamBot",
   "description": "A Pyrogram Telegram bot to Stream Telegram files to web.",
   "keywords": [
       "telegram",
@@ -16,7 +16,7 @@
   "repository": "https://github.com/Shaileshbhil09/ftb/",
   "success_url": "/",
   "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
-  "website": "http://adarsh.eu.org",
+  "website": "...",
   "env": {
       "ENV": {
           "description": "Set this to True if you don't want to crash the bot",
