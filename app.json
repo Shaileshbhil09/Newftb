@@ -94,8 +94,8 @@
           "required": false
       },
       "SESSION_NAME": {
-          "description": " Session Name for Bot [ Add wizan]",
-          "value": "wizan",
+          "description": " Session Name for Bot [ Add Code_X_Mania]",
+          "value": "Code_X_Mania",
           "required": false
       }
   },
