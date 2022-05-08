@@ -6,7 +6,7 @@ Deploy to heroku.
 
 <p align="center">
 
-<a href="https://heroku.com/deploy?template=https://github.com/Shaileshbhil09/Filetolinkv2">
+<a href="https://heroku.com/deploy?template=https://github.com/Shaileshbhil09/Ftb">
 
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 
