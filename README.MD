@@ -1,18 +1,45 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/code-x-mania/Filestreambot-pro?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/code-x-mania/Filestreambot-pro?color=green&style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/code-x-mania/Filestreambot-pro?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/code-x-mania/Filestreambot-pro?color=yellow)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/Filestreambot-pro)
+![GitHub](https://img.shields.io/github/license/code-x-mania/Filestreambot-pro)
+[![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/codexmania)
+
+
+<h1 align="center">FileStreamBot</h1>
+<p align="center"> 
+  <img src="https://socialify.git.ci/Code-X-Mania/Filestreambot-pro/image?description=1&descriptionEditable=A%20very%20fast%20file%20streaming%20bot%20used%20for%20streaming%20and%20downloading%20movies&font=Source%20Code%20Pro&forks=1&issues=1&language=1&logo=https%3A%2F%2Fuser-images.githubusercontent.com%2F88939380%2F137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
+  </a>
+  
+# GIVE A STAR AND FORK ELSE NO MORE OPENSOURCE 
+ <p align="center">
+    A Telegram bot to turn all media and documents files to web link .
+    <br />
+   </strong></a>
+    <br />
+    <a href="https://github.com/code-x-mania/FileStreamBotpro/issues">Report a Bug</a>
+    |
+    <a href="https://github.com/code-x-mania/FileStreamBot-pro/issues">Request Feature</a>
+  </p>
+
+
+<hr>
+
+
+
+## 🍁 About This Bot :
+
+![streaming-Professional-live_1](https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png)
+
+</p>
+<p align='center'>
+    This bot will give you stream links for Telegram files without the need of waiting till the download completes
+</p>
 
 
 ## ♢ How to make your own :
 
-Deploy to heroku.
-
-<p align="center">
-
-<a href="https://heroku.com/deploy?template=https://github.com/Shaileshbhil09/ftb">
-
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-
-</a>
-
-</p>
 
 #### ♢ Click on This Drop-down and get more details
 
@@ -59,7 +86,41 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 💥Removes forwarded tag in channel. <br>
 💥A lot more tired of writing check out by deploying it. 
 </details>
-<details>  
+<details>
+  <summary><b>Host it on VPS Locally :</b></summary>
+
+
+```py
+git clone https://github.com/Code-X-Mania/Filestreambot-pro
+cd Filestreambot-pro
+virtualenv -p /usr/bin/python3 venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+python3 -m Code_X_Mania
+```
+
+and to stop the whole bot,
+ do <kbd>CTRL</kbd>+<kbd>C</kbd>
+
+Setting up things
+
+If you're on Heroku, just add these in the Environmental Variables
+or if you're Locally hosting, create a file named `config.env` in the root directory and add all the variables there.
+An example of `config.env` file:
+
+```py
+API_ID=12345
+API_HASH=esx576f8738x883f3sfzx83
+BOT_TOKEN=55838383:yourtbottokenhere
+BIN_CHANNEL=-100
+PORT=8080
+FQDN=your_server_ip
+OWNER_ID=your_user_id
+DATABASE_URL=mongodb_uri
+```
+  </details>
+
+<details>
   <summary><b>Vars and Details :</b></summary>
 
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
@@ -76,9 +137,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 `OWNER_ID` : Your Telegram User ID
 
-`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can click on logo below!
-
-[![Deploy k mongo](https://telegra.ph/file/fd68906852c71fdd68bef.jpg)](https://www.youtube.com/watch?v=HhHzCfrqsoE)
+`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Me Telegram](https://t.me/adarshhh0).
 
  Option Vars
 
@@ -108,4 +167,19 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 To get an instant stream link, just forward any media to the bot and boom, its fast af.
   
 ![image](https://user-images.githubusercontent.com/88939380/145798095-3cdad108-96b0-4391-a540-cad144d6b864.png)
+
+
+### Channel Support
+Bot also Supported with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button. </details>
+
+### Credits : 
+
+- [Adarsh Goel_(me)](https://github.com/code-x-mania)
+- [EverythingSuckz](https://github.com/EverythingSuckz) 
+- [Jigar Varma](https://github.com/jigarvarma2005)
+- Everyone In This Journey !
+
+
+ 
+ 
 
